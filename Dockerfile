@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:17
 VOLUME /tmp
 ADD target/cicd_demo2.jar app.jar
 EXPOSE 8888
